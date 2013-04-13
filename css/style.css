@@ -1,0 +1,483 @@
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+    html{
+      margin: 0px;
+      padding: 0px;
+    }
+
+    
+    body {
+      margin: 0px;
+      padding: 0px;
+      color: #5a5a5a;
+    }
+
+
+/* FONTS
+-------------------------------------------------- */
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-webfont-webfont.eot');
+    src: url('bebasneue-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bebasneue-webfont-webfont.woff') format('woff'),
+         url('bebasneue-webfont-webfont.ttf') format('truetype'),
+         url('bebasneue-webfont-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+ /* INTRO BLOCK
+ -------------------------------------------------- */
+
+    .intro {
+      height: 700px;
+      margin-bottom: 60px;
+      background-image: url(../img/factory-background-lighter.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+
+    }
+
+    .header-block{
+      opacity: .5;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      width: 100%;
+      height: 45%;
+
+    }
+
+    .header-block-text-h{
+      font-family: 'bebas_neueregular';
+      color: white;
+      position: absolute;
+      top: 140px;
+      left: 120px;
+      font-size: 50px;
+      line-height: .79em;
+      padding-left: 50px;
+      width: 570px;
+      -webkit-transform: rotate(-9deg); 
+      -moz-transform: rotate(-9deg); 
+    }
+
+    .intro-highlight{
+      font-family: 'bebas_neueregular';
+      color: #a7c290;
+      padding-left: 20px;
+    }
+    .header-block-text-p{
+ 
+      color: white;
+      position: absolute;
+      top: 100px;
+      left: 450px;
+      font-size: 18px;
+      padding-left: px;
+      width: 620px;
+      -webkit-transform: rotate(-9deg); 
+      -moz-transform: rotate(-9deg); 
+    }
+
+    .logo-image{
+      position: fixed;
+      top: 0;
+      left: 70px;
+    }
+    
+    #main-intro{
+      margin-top: -30px;
+      color: gray;
+      letter-spacing: .06em;
+    }
+
+    #main-intro h1, #main-intro h2{
+      font-family: 'bebas_neueregular';
+      color: white;
+      font-size: 25px;
+      letter-spacing: .05em;
+      padding-top: 20px;
+    }
+
+    #ticket{
+      height: 72px;
+      background-image: url(../img/hover-ticket.png);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    #fb{
+      height: 72px;
+      background-image: url(../img/hover-facebook.png);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    #twitter{
+      height: 72px;
+      background-image: url(../img/hover-twitter.png);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+
+    #fb img:hover, #twitter img:hover, #ticket img:hover{
+      opacity: 0;
+    }
+    
+    .action-steps {
+      vertical-align: center;
+      text-align: center;
+    }
+
+    .action-steps p{
+      vertical-align: center;
+      text-align: center;
+      width: 95%;
+    }
+
+    #ticket img, #fb img, #twitter img{
+      padding-top: 2px;
+      vertical-align: center;
+      text-align: center;
+    }
+
+
+    .form-signup{
+      margin-top: 20px;
+      padding: 20px;
+      width: 185px;
+      background-color: rgba(0, 0, 11, .5);
+      box-shadow: 0px 0px 3px #000;
+    }
+
+    .form-signup p{
+    color: gray;
+    letter-spacing: .05em;
+    }
+
+    .form-signup button{
+    margin-top: 20px;
+    color: #282828;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    letter-spacing: .05em;
+    background-color: #a7c290;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+
+    }
+
+    #form-header{
+    font-family: 'bebas_neueregular';
+    font-size: 20px;
+    color: #a7c290;
+    letter-spacing: .05em;
+    }
+
+    #form-info{
+    font-size: 13px;  
+    line-height: 1.1em;
+    }
+
+    input{
+      width: 90%;
+      opacity: .75;
+    }
+
+
+    /* PRODUCT SECTION
+    -------------------------------------------------- */
+    /* CONTAINER */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    /* PRODUCT HEADER */
+
+    #product-header h2{
+      font-family: 'bebas_neueregular';
+      color: #363636;
+      font-size: 40px;
+      width: 482px;
+      letter-spacing: .05em;
+      border-bottom: solid 5px #199AA8;
+    }
+    
+    #product-header p{
+      color: #363636;
+      font-size: 17px;
+      letter-spacing: .05em;
+      margin-bottom: 40px;
+    }
+
+    footer{
+      margin-top: 40px;
+    }
+
+    /*MODAL STYLE*/
+    #myModalLabel{
+      font-family: 'bebas_neueregular';
+      color: #363636;
+      font-size: 30px;
+      letter-spacing: .05em;
+      border-bottom: solid 5px #199AA8;
+      margin-bottom: 10px;
+    }
+
+    #myModal a{
+      color: #199AA8;
+      font-weight: bold;
+    }
+    
+    .modal-body{
+      font-size: 14px;
+      font-style: italic;
+    }
+
+
+    /*PRODUCT STYLES*/
+          #justly{
+            background-image: url(../img/hover-handbags_justly.png);
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+          #justly img:hover{
+            opacity: 0;
+            
+          }
+
+          #floral{
+            background-image: url(../img/hover-handbags_floral.png);
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+          #floral img:hover{
+            opacity: 0;
+            
+          }
+
+          #horizon{
+            background-image: url(../img/hover-handbags_horizon.png);
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+          #horizon img:hover{
+            opacity: 0;
+            
+          }
+
+          #carrier{
+            background-image: url(../img/hover-handbags_carrier.png);
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+          #carrier img:hover{
+            opacity: 0;
+            
+          }
+
+          #makeup_lg{
+            background-image: url(../img/hover-handbags_makeup_lg.png);
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+          #makeup_lg img:hover{
+            opacity: 0;
+            
+          }
+
+          #makeup_small{
+            background-image: url(../img/hover-handbags_makeup_small.png);
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+          #makeup_small img:hover{
+            opacity: 0;
+            
+          }
+
+
+/*     RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .intro {
+        height: 700px;
+        width: 100%;
+      }
+      .header-block {
+        height: 200px;
+      }
+
+      .logo-image{
+        width: 100px;
+      }
+
+      .header-block-text-h{
+      font-family: 'bebas_neueregular';
+      color: white;
+      position: absolute;
+      top: 60px;
+      left: 40px;
+      font-size: 40px;
+      line-height: .79em;
+      padding-left: 40px;
+      width: 570px;
+      -webkit-transform: rotate(-9deg); 
+      -moz-transform: rotate(-9deg); 
+    }
+
+
+    .header-block-text-p{
+ 
+      color: white;
+      position: absolute;
+      top: 35px;
+      left: 290px;
+      font-size: 14px;
+      padding-left: px;
+      width: 420px;
+      -webkit-transform: rotate(-9deg); 
+      -moz-transform: rotate(-9deg); 
+    }
+
+    .form-signup{
+     margin-left: -200px;
+      width: 330px;
+      font-size: 13px;
+    }
+
+    #product-header{
+      margin-left: -200px;
+
+    }
+    /*PRODUCT STYLES*/
+      #justly, #horizon, #floral, #carrier, #makeup_small, #makeup_lg{
+        background-size: 100%;
+      }
+      
+
+    @media (max-width: 767px) {
+
+      .intro {
+        height: 700px;
+        width: 100%;
+      }
+
+      .header-block {
+        height: 30px;
+      }
+
+      .logo-image{
+        width: 70px;
+        left: 20px;
+      }
+
+      .header-block-text-h{
+      position: relative;
+      top: 0;
+      left: 0;
+      font-family: 'bebas_neueregular';
+      color: white;
+      position: absolute;
+      top: 60px;
+      left: 0px;
+      font-size: 40px;
+      line-height: .79em;
+      padding-left: 20px;
+      width: 570px;
+      -webkit-transform: rotate(0deg); 
+      -moz-transform: rotate(0deg); 
+    }
+    
+    .intro-highlight{
+      padding-left: 0px;
+    }
+
+    .header-block-text-p{
+ 
+      color: white;
+      position: relative;
+      top: 0;
+      left: 20px;
+      margin-top:100px;
+      margin-bottom: 40px;
+      font-size: 14px;
+      padding-left: 0px;
+      width: 280px;
+      -webkit-transform: rotate(0deg); 
+      -moz-transform: rotate(0deg); 
+    }
+
+    .form-signup{
+      float: none;
+      width: 70%;
+      font-size: 13px;
+      margin-left: 20px;
+    }
+
+    #form-info{
+      font-size: 11px;
+    }
+
+    .action-block{
+      width: 100%;
+      margin-top: -25px;
+      padding: 0px 20px 20px 20px;
+      background-color: #199AA8;
+    }
+
+    .action-block p{
+      color: #363636;
+    }  
+
+    #ticket, #fb, #twitter{
+      background-image: none;
+    }
+
+    #fb img:hover, #twitter img:hover, #ticket img:hover{
+      opacity: 1;
+    }
+
+
+    #product-header{
+      margin: 300px 0px 0px 0px;
+      padding: 20px;
+    }
+
+    #product-header h2{
+      width: 100%;
+      font-size: 35px;
+      padding:0px;
+      border-top: none;
+    }
+
+    #product-header p{
+      font-size: 14px;
+    }
+
+    footer{
+      width: 100%;
+      margin:20px 0px 0px 0px;
+      padding: 30px;
+    }
+
+    /*PRODUCT STYLES*/
+       #justly, #horizon, #floral, #carrier, #makeup_small, #makeup_lg{
+        background-size: 50%;
+
+       }
